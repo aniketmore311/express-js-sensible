@@ -19,5 +19,5 @@
 - `pm2` as production runtime
 - `express-validator` and validation middleware for validation
 - `http-errors` for good error handling
-- `nodemon`,`eslint` and `prettier` for ease of development
+- `nodemon`, `eslint` and `prettier` for ease of development
 - Dockerfile for docker support
