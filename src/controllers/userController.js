@@ -32,7 +32,7 @@ module.exports = function (app) {
     '/:id',
     param('id').isNumeric(),
     validate(),
-    catchAsync(async (req, res, next) => {
+    catchAsync(async (req, res) => {
       const id = Number(req.params.id)
       const user = users.find((user) => user.id === id)
       if (!user) {

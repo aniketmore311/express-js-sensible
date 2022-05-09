@@ -70,6 +70,7 @@ function errorLogger() {
  * @returns {import("express").ErrorRequestHandler}
  */
 function errorHandler() {
+  //eslint-disable-next-line no-unused-vars
   return function (err, req, res, next) {
     let message = 'Something went wrong'
     let status_code = 500
